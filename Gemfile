@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
@@ -49,3 +49,6 @@ group :development do
   gem 'spring-watcher-listen'
 end
 
+group :production do
+  gem 'rails_12factor'
+end
